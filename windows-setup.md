@@ -8,18 +8,21 @@
     - VS Code
     - Python
 
-2) WSL Setup
+2) Windows Terminal Setup
+    - https://docs.microsoft.com/en-us/windows/terminal/install
+
+3) WSL Setup
     - https://docs.microsoft.com/en-us/windows/wsl/install
     - After installation, restart computer, setup a user then:
+    (https://docs.microsoft.com/en-us/windows/wsl/setup/environment)
 ~~~
 sudo apt update && sudo apt upgrade
 ~~~
-    - VS Code: Install necessary remote extensions on WSL side
 
-3) Windows Terminal Setup
-    - https://docs.microsoft.com/en-us/windows/terminal/install
+4) VS Code Remote
+    - Open a remote VS Code into WSL, load in any extensions on the "VM" side that arent carried over. There is a note in extensions about which ones are active in remote or not
 
-4) Git, Github, and Git Credential Manager Setup
+5) Git, Github, and Git Credential Manager Setup
     - Install git on Windows: https://git-scm.com/download/win
     - Initialize Git Credential Manager by push/pulling something from github (will trigger interactive gh setup)
     - Install git on WSL
