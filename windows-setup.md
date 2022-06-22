@@ -10,11 +10,11 @@
 
 2) WSL Setup
     - https://docs.microsoft.com/en-us/windows/wsl/install
-    - VS Code: Install necessary remote extensions on WSL side 
     - After installation, restart computer, setup a user then:
 ~~~
 sudo apt update && sudo apt upgrade
 ~~~
+    - VS Code: Install necessary remote extensions on WSL side
 
 3) Windows Terminal Setup
     - https://docs.microsoft.com/en-us/windows/terminal/install
