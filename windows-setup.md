@@ -40,6 +40,10 @@ sudo npm install -g n
 sudo n stable
 ~~~
 
+TODO:
 6) Bash Profiles
+
+-install python and pip on WSL
+-git pull test on WSL
 
 
