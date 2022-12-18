@@ -44,6 +44,7 @@ SECRET_KEY=[cut/paste django secret key from settings.py here (without brackets)
 from pathlib import Path
 from dotenv import load_dotenv
 import os
+load_dotenv()
 SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = (os.getenv("DEBUG") == "true")
 ALLOWED_HOSTS = ['*']
