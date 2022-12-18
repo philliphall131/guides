@@ -10,6 +10,10 @@ cd <project name>
 mkdir frontend && mkdir backend
 touch .gitignore
 ~~~
+- Initialize a database of your choosing. In most of my cases, postgresql:
+~~~
+createdb <db name>
+~~~
 
 ## Django Setup
 1) In backend folder, create virtual environment, initialize it
