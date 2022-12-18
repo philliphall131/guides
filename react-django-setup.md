@@ -22,7 +22,7 @@ cd backend
 python -m venv venv
 source venv/bin/activate
 ~~~
-2) Install django and dependencies
+2) Install django and dependencies (on mac, swap psycopg2-binary for psycopg2)
 ~~~
 pip install django djangorestframework psycopg2-binary django-cors-headers gunicorn python-dotenv
 ~~~
@@ -94,6 +94,10 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "../frontend/build/static"), # your static files folder (where react builds to)
 ]
 # AUTH_USER_MODEL = '<app name>.User' # leave this commented until implemented in models
+~~~
+7) Setup a django super user/admin 
+~~~
+python manage.py createsuperuser
 ~~~
 
 ## React Setup
